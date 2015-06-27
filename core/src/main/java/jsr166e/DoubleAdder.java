@@ -194,5 +194,9 @@ public class DoubleAdder extends Striped64 implements Serializable {
         cells = null;
         base = Double.doubleToRawLongBits(s.readDouble());
     }
+    
+    public void test(){
+    	
+    }
 
 }
